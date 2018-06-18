@@ -1,8 +1,5 @@
 BUILD\BLUEPILL_F103C8\GCC_ARM\main.o: main.cpp \
- BUILD\BLUEPILL_F103C8\GCC_ARM\mbed_config.h USB/USBSerial/USBSerial.h \
- USB/USBSerial/USBCDC.h USB/USBDevice/USBEndpoints.h \
- USB/USBEndpoints_STM32.h USB/USBDevice/USBDescriptor.h \
- USB/USBDevice/USBDevice_Types.h USB/USBDevice/USBDevice.h mbed-os/mbed.h \
+ BUILD\BLUEPILL_F103C8\GCC_ARM\mbed_config.h mbed-os/mbed.h \
  mbed-os/rtos/rtos.h mbed-os/rtos/TARGET_CORTEX/mbed_rtos_storage.h \
  mbed-os/rtos/TARGET_CORTEX/rtx5/RTX/Source/rtx_lib.h \
  mbed-os/rtos/TARGET_CORTEX/rtx5/RTX/Source/rtx_core_c.h \
@@ -174,5 +171,9 @@ BUILD\BLUEPILL_F103C8\GCC_ARM\main.o: main.cpp \
  mbed-os/platform/CriticalSectionLock.h mbed-os/platform/DeepSleepLock.h \
  mbed-os/platform/mbed_stats.h mbed-os/platform/Callback.h \
  mbed-os/platform/FunctionPointer.h mbed-os/platform/ScopedLock.h \
- USB/USBDevice/USBDevice_Types.h USB/USBDevice/USBHAL.h \
- USB/USBDevice/USBEndpoints.h USB/USBSerial/CircBuffer.h
+ USB/USBSerial/USBSerial.h USB/USBSerial/USBCDC.h \
+ USB/USBDevice/USBEndpoints.h USB/USBEndpoints_STM32.h \
+ USB/USBDevice/USBDescriptor.h USB/USBDevice/USBDevice_Types.h \
+ USB/USBDevice/USBDevice.h USB/USBDevice/USBDevice_Types.h \
+ USB/USBDevice/USBHAL.h USB/USBDevice/USBEndpoints.h \
+ USB/USBSerial/CircBuffer.h
