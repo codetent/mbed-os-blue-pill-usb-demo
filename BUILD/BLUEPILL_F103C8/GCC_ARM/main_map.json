@@ -1,5 +1,45 @@
 [
     {
+        "module": "USB\\USBAudio", 
+        "size": {
+            ".data": 0, 
+            ".bss": 0, 
+            ".text": 671
+        }
+    }, 
+    {
+        "module": "USB\\USBDevice", 
+        "size": {
+            ".data": 98, 
+            ".bss": 6, 
+            ".text": 4112
+        }
+    }, 
+    {
+        "module": "USB\\USBHAL_STM32.o", 
+        "size": {
+            ".data": 0, 
+            ".bss": 4, 
+            ".text": 3922
+        }
+    }, 
+    {
+        "module": "USB\\USBHID", 
+        "size": {
+            ".data": 0, 
+            ".bss": 0, 
+            ".text": 222
+        }
+    }, 
+    {
+        "module": "USB\\USBSerial", 
+        "size": {
+            ".data": 130, 
+            ".bss": 4, 
+            ".text": 2230
+        }
+    }, 
+    {
         "module": "[fill]", 
         "size": {
             ".data": 20, 
@@ -36,7 +76,7 @@
         "size": {
             ".data": 4, 
             ".bss": 1372, 
-            ".text": 1048
+            ".text": 606
         }
     }, 
     {
@@ -44,7 +84,7 @@
         "size": {
             ".data": 4, 
             ".bss": 100, 
-            ".text": 1291
+            ".text": 1012
         }
     }, 
     {
@@ -68,7 +108,7 @@
         "size": {
             ".data": 264, 
             ".bss": 433, 
-            ".text": 9069
+            ".text": 9049
         }
     }, 
     {
@@ -82,15 +122,15 @@
     {
         "module": "mbed-os\\targets", 
         "size": {
-            ".data": 232, 
-            ".bss": 302, 
-            ".text": 28741
+            ".data": 4, 
+            ".bss": 288, 
+            ".text": 18293
         }
     }, 
     {
         "summary": {
             "static_ram": 11768, 
-            "total_flash": 96834
+            "total_flash": 96802
         }
     }
 ]

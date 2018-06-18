@@ -1,7 +1,7 @@
 BUILD\BLUEPILL_F103C8\GCC_ARM\test_env.o: \
- c:\Users\Christoph\Desktop\MBED\mbed-os\features/unsupported\tests\mbed\env\test_env.cpp \
+ C:\Users\Christoph\Desktop\MBED\mbed-os\features/unsupported\tests\mbed\env\test_env.cpp \
  BUILD\BLUEPILL_F103C8\GCC_ARM\mbed_config.h \
- c:\Users\Christoph\Desktop\MBED\mbed-os\features/unsupported\tests\mbed\env\test_env.h \
+ C:\Users\Christoph\Desktop\MBED\mbed-os\features/unsupported\tests\mbed\env\test_env.h \
  mbed-os/mbed.h mbed-os/rtos/rtos.h \
  mbed-os/rtos/TARGET_CORTEX/mbed_rtos_storage.h \
  mbed-os/rtos/TARGET_CORTEX/rtx5/RTX/Source/rtx_lib.h \
