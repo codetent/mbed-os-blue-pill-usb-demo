@@ -1,75 +1,96 @@
 [
     {
-        "module": "Fill", 
+        "module": "[fill]", 
         "size": {
-            ".data": 24, 
-            ".bss": 19, 
-            ".text": 123
+            ".data": 20, 
+            ".bss": 15, 
+            ".text": 139
         }
     }, 
     {
-        "module": "Misc", 
+        "module": "[lib]\\c.a", 
         "size": {
-            ".data": 2488, 
-            ".bss": 1489, 
-            ".text": 45307
+            ".data": 2472, 
+            ".bss": 89, 
+            ".text": 27777
         }
     }, 
     {
-        "module": "drivers", 
+        "module": "[lib]\\gcc.a", 
+        "size": {
+            ".data": 0, 
+            ".bss": 0, 
+            ".text": 3116
+        }
+    }, 
+    {
+        "module": "[lib]\\misc", 
+        "size": {
+            ".data": 12, 
+            ".bss": 28, 
+            ".text": 208
+        }
+    }, 
+    {
+        "module": "main.o", 
+        "size": {
+            ".data": 4, 
+            ".bss": 1372, 
+            ".text": 1048
+        }
+    }, 
+    {
+        "module": "mbed-os\\drivers", 
         "size": {
             ".data": 4, 
             ".bss": 100, 
-            ".text": 1205
+            ".text": 1291
         }
     }, 
     {
-        "module": "hal", 
-        "size": {
-            ".data": 0, 
-            ".bss": 24, 
-            ".text": 1144
-        }
-    }, 
-    {
-        "module": "platform", 
+        "module": "mbed-os\\features", 
         "size": {
             ".data": 4, 
-            ".bss": 378, 
-            ".text": 6293
+            ".bss": 88, 
+            ".text": 372
         }
     }, 
     {
-        "module": "rtos", 
+        "module": "mbed-os\\hal", 
         "size": {
             ".data": 4, 
-            ".bss": 4360, 
-            ".text": 978
+            ".bss": 84, 
+            ".text": 3300
         }
     }, 
     {
-        "module": "rtos/rtx5", 
+        "module": "mbed-os\\platform", 
         "size": {
-            ".data": 176, 
-            ".bss": 1368, 
-            ".text": 13847
+            ".data": 264, 
+            ".bss": 433, 
+            ".text": 9069
         }
     }, 
     {
-        "module": "targets/TARGET_STM", 
+        "module": "mbed-os\\rtos", 
+        "size": {
+            ".data": 168, 
+            ".bss": 6073, 
+            ".text": 18589
+        }
+    }, 
+    {
+        "module": "mbed-os\\targets", 
         "size": {
             ".data": 232, 
-            ".bss": 322, 
-            ".text": 28734
+            ".bss": 302, 
+            ".text": 28741
         }
     }, 
     {
         "summary": {
-            "total_flash": 100563, 
-            "static_ram": 10992, 
-            "stack": 0, 
-            "heap": 0, 
-            "total_ram": 10992
+            "static_ram": 11768, 
+            "total_flash": 96834
         }
     }
 ]

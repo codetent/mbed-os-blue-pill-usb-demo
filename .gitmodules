@@ -1,0 +1,3 @@
+[submodule "mbed-os"]
+	path = mbed-os
+	url = https://github.com/codetent/mbed-os-blue-pill
