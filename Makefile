@@ -12,7 +12,6 @@ TOOLCHAIN     = GCC_ARM
 BOARD         = BLUEPILL_F103C8
 BUILDDIR      = BUILD
 MBED          = mbed
-GDB           = arm-none-eabi-gdb
 
 # DETERMINE OS
 ifdef SystemRoot
@@ -24,15 +23,6 @@ else
   RM_DIR = $(RM)
   FixPath = $1
 endif
-
-GDB_ARGS      = -ex "target remote :3333"
-GDB_ARGS     += -ex "monitor reset"
-GDB_ARGS     += -ex "load"
-GDB_ARGS     += -ex "monitor reset"
-
-################################################################################
-# SEMI_HOSTED DEBUGGING
-GDB_ARGS     += -ex "monitor SWO EnableTarget 16000000 0 1 0"
 
 ################################################################################
 # BUILD RULES
