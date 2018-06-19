@@ -14,3 +14,9 @@ Clone the repository with all included submodules.
 ```
 git clone --recursive https://github.com/codetent/mbed-os-blue-pill-usb-demo.git
 ```
+
+Build & Run
+
+```
+make run
+```
