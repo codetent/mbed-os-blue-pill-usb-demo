@@ -3,7 +3,7 @@
 ## Description
 
 This project is an USB demo programm for the "blue pill" STM32F103C8 board.
-It is based on the USB Stack provided by Mbed for the controller. Because this board is mostly shipped with a 128KB version of the controller the linker file has been replaced by the one from Konstantin Kochin ([Link]("https://os.mbed.com/users/vznncv/code/STM32F103C8T6_USBSerial_Demo/rev/24604e97c40c/")).
+It is based on the USB Stack provided by Mbed for the controller. Because this board is mostly shipped with a 128KB version of the controller the linker file has been replaced by the one from Konstantin Kochin ([Link](https://os.mbed.com/users/vznncv/code/STM32F103C8T6_USBSerial_Demo/rev/24604e97c40c/)).
 
 ## Requirements
 
