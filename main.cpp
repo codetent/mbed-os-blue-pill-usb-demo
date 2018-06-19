@@ -12,13 +12,14 @@ USBSerial serial;
 
 int main()
 {
+    char buf[128];
+
     while (true) {
-        // Print message over Virtual COM Port
-        serial.printf("Hello USB!\n");
+        // Read and send it back
+        serial.scanf("%s", buf);
+        serial.printf("-> %s\n", buf);
 
         // Toggle LED
         myled = !myled;
-
-        wait_ms(1000);
     }
 }
