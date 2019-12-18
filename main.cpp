@@ -1,5 +1,5 @@
 /*
- * This is an example programm for using the USB connection
+ * This is an example program for using the USB connection
  * of the STM32F103C8 board as a virtual COM Port.
  * 
  */
